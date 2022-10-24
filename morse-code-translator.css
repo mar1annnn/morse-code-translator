@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 25px;
+}
+
+.output {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -2;
+  overflow-wrap: break-word;
+  display: flex;
+  resize: both;
+  padding: 6px 5px 5px 10px;
+  overflow: auto;
+  margin-left: 20px;
+}
+
+textarea {
+  width: 200px;
+  margin-right: 20px;
+  height: 100px;
+  resize: none;
+  /* position: relative; */
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+.clear {
+  margin-top: 5px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translatey(140px);
+}
